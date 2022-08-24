@@ -1,0 +1,236 @@
+body{
+    background-color: #fafafa;
+    margin: 0px;
+    padding: 0px;
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;;
+}
+main{
+  width: 800px;
+  display: grid;
+  grid-template-columns: 1fr 350px;
+  column-gap:5px;
+  margin: 32px auto 0;  
+  max-width: 935px;
+  
+
+}
+ #slider img.selected{
+  opacity: 1;
+  
+}
+#slider img{
+  opacity: 0;
+  position: absolute;
+  top: 26px;
+  left:130px;
+  transition: opacity 800ms;
+  
+
+}
+.left{
+    background: url(https://www.instagram.com/static/images/homepage/phones/home-phones.png/1dc085cdb87d.png) no-repeat center;  
+    max-width: 935px;
+    flex-basis: 380.32px;
+    height: 641.15px;
+    margin-bottom: 12px;
+    margin-right: 32px;
+    position: relative;
+   
+    
+} 
+.right{
+    border: solid 1px rgba(0,0,0,0.2);
+    height: 335px;
+    padding:30px;
+    margin-top:23px;
+    display: block;
+    max-width: 935px;
+}
+.instagram{
+   
+   display: flex;
+    font-size: 50px;
+    justify-content: center;
+    display: 0 auto;
+    max-width: 935px;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top:30px;
+    box-sizing: border-box;
+    margin: 0 0 10px;
+    padding: 10px 0;
+    max-width: 935px;
+    
+  }
+  input{
+
+    margin-top:10px;
+    height: 28px;
+    border-radius:3px;
+    border: solid 1px rgba(0,0,0,0.2);
+    font-size: 13px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 935px;
+  }
+  .entrar{
+    background-color: #0095F6;
+    box-sizing: border-box;
+    cursor: pointer;
+    max-width: 935px;
+    color: #fafafa;
+  }
+  .oustyle{
+    display: flex;
+    margin-top: 30px;
+    flex-direction: row;
+    align-items: center;
+    max-width: 935px;
+  }
+  .oustyle1{
+    background-color: rgb(219,219,219);
+    height: 1px;
+    width: 120px;
+    margin-top: -5%;
+    max-width: 935px;
+  }
+  .ou{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color: gray;
+    padding: 0px 10px 0px 10px;
+    font-size:17px;
+    margin-top: -5%;
+    max-width: 935px;
+  }
+  .oustyle2{
+    margin-top: -5%;
+    background-color:rgb(219,219,219);
+    height: 1px;
+    width: 120px;
+    max-width: 935px;
+  }
+  .facebook{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left:60px;
+    margin-top:30px;
+    color: #00376b;
+    color: rgba(var(--fe0,0,55,107),1);
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    max-width: 935px;
+  }
+  .face{
+    width: 16px;
+    height: 16px;
+    margin-right:5px ;
+    max-width: 935px;
+
+  }
+  
+  .cadastrese{
+      color: rgba(92, 92, 255, 0.699);
+      font-weight: bold;
+  }
+  .senha{
+    font-size: 12px;
+    margin-top:12px; 
+    color: rgba(var(--fe0,0,55,107),1);
+    line-height: 16px;
+    text-align: center;
+    max-width: 935px;
+     
+  }
+  .right2{
+    align-items: center;
+    border: solid 1px rgba(0,0,0,0.2);
+    height: 20px;
+    width: 310px;
+    padding:20px;
+    margin-top:19%;
+    margin-left: -11%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    text-align: center;
+    max-width: 935px;
+  } 
+  a:link {
+    text-decoration: none;
+    color:black;
+    
+  }
+  a:hover {
+    text-decoration: underline;
+    
+  }
+  .right3{
+    font-size:14px;
+    line-height: 18px;
+    margin: 10px 20px 10px 20px;
+    text-align: center;
+    display:flex;
+    padding: 10px;
+    max-width: 935px;
+    justify-content: center;
+    }
+    .linkimg{
+      margin-top: 10px;
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      gap: 10px;
+      max-width: 935px;
+    }
+    .firstimg{
+      width: 100%;
+      height: 40px;
+      max-width: 935px;
+    }
+    .secondimg{
+      width: 45%;
+      height: 40px;
+      
+    }
+    
+footer{  
+ margin-top: 40px ;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 10vh;
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+ 
+}
+.f1{
+
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 40px;
+  margin-bottom: 52px;
+  text-align: center;  
+  
+}
+.f2{
+  padding: 10px;
+}
+.f3{
+  flex-direction: row;
+  text-align: center;
+  padding: 0px 0px 50px 0px;
+}
+
+span{
+  
+  color:gray;
+  font-weight: 100px;
+  font-size: 12px;
+  margin:0px 10px;
+}

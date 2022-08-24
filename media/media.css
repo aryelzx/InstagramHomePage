@@ -1,0 +1,125 @@
+@media screen and (max-width: 760px){
+  body{
+
+    width: 80vh;
+    height: 100vh;
+    font-size: 14px;
+    background: rgba(var(--d87,255,255,255),1);
+    overflow-y: scroll;
+    border: 0;
+    display:flex;
+    
+    
+  }
+    main{
+      flex-direction: column;
+      max-width: 80vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;    
+      min-height: 100vh;
+      overflow: hidden;
+      
+    }
+    .right{     
+      border: none;
+      margin-right: 20vh;
+      margin-top: -180px;
+  
+
+    }
+    .right2{
+      flex-direction: column;
+      justify-content: center;
+      border: none;
+      margin: none;
+    }
+    .right3{
+      flex-direction: column;
+      justify-content: center;
+      border: none;
+      margin: none;
+    }
+    .article{
+      padding: 0px 0px 32px;
+    }
+    form{
+      
+      width: 90%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 18px;
+      
+    }
+    input{
+        gap:10%;
+        align-self:center;
+        width: 80%;
+        
+    }
+    .entrar{
+      margin:14px 40px;
+      
+    }
+    .oustyle{
+      flex-direction: row;
+      display:flex;
+      margin: 10px 20px 18px;
+      
+    }
+    .ou{
+      font-size:70%;
+    }
+    .left{  
+      display: none;
+    }
+    .facebook{
+    border: 0;
+    color: #044672b4;
+    font-weight: bold;
+    display: flex;
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+    margin-left: 18%;
+    }
+    .senha{
+    color: black;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 12px;
+    margin-left: -10%;
+    }
+    .right2{
+      display: flex;
+      border: none;
+      flex-direction: row;
+      margin-left: -5%;
+      margin-top: -1px;
+      font-size: 14px;
+
+    }
+    .right3{
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 14px;
+      margin-left: 20%;
+      
+    }
+    .linkimg{
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      gap: 10px;
+      margin-right: 10%;
+      
+      
+    }
+    
+  
+  footer{
+    display: none;
+  }
+}
